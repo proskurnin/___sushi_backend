@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - u0216880_sushi@server121.hosting.reg.ru" uuid="e61ce37e-cd1e-4eab-a1d3-e6f2a73f9747">
+    <database-info product="MySQL" version="5.6.32-78.0" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="u0216880_sushi"/>
+      <table id="2" parent="1" name="customers">
+        <comment>Поставщики</comment>
+      </table>
+      <table id="3" parent="1" name="dishs">
+        <comment>Блюда (название таблицы для верной работы программы)</comment>
+      </table>
+      <table id="4" parent="1" name="dishs_types"/>
+      <table id="5" parent="1" name="presets">
+        <comment>Полуфабрикаты</comment>
+      </table>
+      <table id="6" parent="1" name="products">
+        <comment>Сырьё и упаковка</comment>
+      </table>
+      <table id="7" parent="1" name="products_purchases">
+        <comment>Поступления сырья и упаковки</comment>
+      </table>
+      <table id="8" parent="1" name="recipes">
+        <comment>Полуфабрикаты</comment>
+      </table>
+      <table id="9" parent="1" name="recipes_groups"/>
+      <table id="10" parent="1" name="recipes_types"/>
+      <table id="11" parent="1" name="recipes_views"/>
+      <table id="12" parent="1" name="sales">
+        <comment>Поступления сырья и упаковки</comment>
+      </table>
+      <table id="13" parent="1" name="semis">
+        <comment>Полуфабрикаты</comment>
+      </table>
+      <table id="14" parent="1" name="units">
+        <comment>Единицы измерения</comment>
+      </table>
+      <table id="15" parent="1" name="vendors">
+        <comment>Поставщики</comment>
+      </table>
+      <column id="16" parent="2" name="customer_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="17" parent="2" name="customer_first_name">
+        <comment>имя</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="18" parent="2" name="customer_last_name">
+        <comment>фамилия</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="19" parent="2" name="customer_middle_name">
+        <comment>отчество</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="20" parent="2" name="customer_birthday">
+        <comment>день рождения клиента</comment>
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="21" parent="2" name="customer_referrer_id">
+        <comment>от кого пришёл</comment>
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+      </column>
+      <column id="22" parent="2" name="customer_phone_1">
+        <mandatory>1</mandatory>
+        <data-type>varchar(11)</data-type>
+      </column>
+      <column id="23" parent="2" name="customer_phone_2">
+        <mandatory>1</mandatory>
+        <data-type>varchar(11)</data-type>
+      </column>
+      <column id="24" parent="2" name="customer_address_street">
+        <comment>улица</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="25" parent="2" name="customer_address_house">
+        <comment>дом</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="26" parent="2" name="customer_address_apartment">
+        <comment>квартира</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="27" parent="2" name="customer_address_floor">
+        <comment>этаж</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="28" parent="2" name="customer_address_entrance">
+        <comment>подъезд</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="29" parent="2" name="customer_address_intercom">
+        <comment>код домофона</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="30" parent="2" name="customet_link_vk">
+        <comment>ссылка на профиль в вк</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="31" parent="2" name="customet_link_fb">
+        <comment>ссылка на профиль в facebook</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="32" parent="2" name="customer_comment">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="33" parent="2" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="34" parent="2" name="PRIMARY">
+        <columns>customer_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="35" parent="3" name="dish_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="36" parent="3" name="dish_name">
+        <comment>название</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="37" parent="3" name="dish_type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="38" parent="3" name="component_name">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="39" parent="3" name="component_amount">
+        <data-type>decimal(6,4)</data-type>
+      </column>
+      <column id="40" parent="3" name="component_comment">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="41" parent="3" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="42" parent="3" name="PRIMARY">
+        <columns>dish_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="43" parent="4" name="dish_type_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="44" parent="4" name="dish_type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="45" parent="4" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <index id="46" parent="4" name="recipe_type">
+        <columns>dish_type</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="47" parent="4" name="PRIMARY">
+        <columns>dish_type_id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="48" parent="4" name="recipe_type">
+        <columns>dish_type</columns>
+        <underlying-index>recipe_type</underlying-index>
+      </key>
+      <column id="49" parent="5" name="preset_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="50" parent="5" name="preset_name">
+        <comment>название</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="51" parent="5" name="component_name">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="52" parent="5" name="component_gross">
+        <data-type>decimal(6,4)</data-type>
+      </column>
+      <column id="53" parent="5" name="component_net">
+        <data-type>decimal(6,4)</data-type>
+      </column>
+      <column id="54" parent="5" name="component_comment">
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="55" parent="5" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="56" parent="5" name="PRIMARY">
+        <columns>preset_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="57" parent="6" name="product_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="58" parent="6" name="product_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="59" parent="6" name="unit_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+      </column>
+      <column id="60" parent="6" name="price_start">
+        <mandatory>1</mandatory>
+        <data-type>decimal(8,2)</data-type>
+      </column>
+      <column id="61" parent="6" name="protein">
+        <mandatory>1</mandatory>
+        <data-type>decimal(6,5)</data-type>
+      </column>
+      <column id="62" parent="6" name="fat">
+        <mandatory>1</mandatory>
+        <data-type>decimal(6,5)</data-type>
+      </column>
+      <column id="63" parent="6" name="carbohydrate">
+        <mandatory>1</mandatory>
+        <data-type>decimal(6,5)</data-type>
+      </column>
+      <column id="64" parent="6" name="energy">
+        <mandatory>1</mandatory>
+        <data-type>decimal(8,4)</data-type>
+      </column>
+      <column id="65" parent="6" name="store_min">
+        <mandatory>1</mandatory>
+        <data-type>decimal(8,4)</data-type>
+      </column>
+      <column id="66" parent="6" name="store_max">
+        <mandatory>1</mandatory>
+        <data-type>decimal(8,4)</data-type>
+      </column>
+      <column id="67" parent="6" name="store_online">
+        <mandatory>1</mandatory>
+        <data-type>decimal(8,4)</data-type>
+      </column>
+      <column id="68" parent="6" name="product_comment">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="69" parent="6" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <index id="70" parent="6" name="product_name">
+        <columns>product_name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="71" parent="6" name="unit_id">
+        <columns>unit_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="72" parent="6" name="PRIMARY">
+        <columns>product_id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="73" parent="6" name="product_name">
+        <columns>product_name</columns>
+        <underlying-index>product_name</underlying-index>
+      </key>
+      <foreign-key id="74" parent="6" name="products_ibfk_1">
+        <columns>unit_id</columns>
+        <ref-key>~.units.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="75" parent="7" name="products_purchase_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="76" parent="7" name="products_purchase_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="77" parent="7" name="products_purchase_date">
+        <comment>дата покупки</comment>
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="78" parent="7" name="fiscal_receipt">
+        <comment>номер чека</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="79" parent="7" name="vendor_id">
+        <comment>поставщик</comment>
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+      </column>
+      <column id="80" parent="7" name="product_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="81" parent="7" name="product_amount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(8,2)</data-type>
+      </column>
+      <column id="82" parent="7" name="product_cost">
+        <mandatory>1</mandatory>
+        <data-type>decimal(8,2)</data-type>
+      </column>
+      <column id="83" parent="7" name="product_price">
+        <mandatory>1</mandatory>
+        <data-type>decimal(8,2)</data-type>
+      </column>
+      <column id="84" parent="7" name="product_comment">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="85" parent="7" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <index id="86" parent="7" name="product_01_id">
+        <columns>product_amount
+product_cost</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="87" parent="7" name="product_01_unit_id">
+        <columns>product_cost</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="88" parent="7" name="product_id_">
+        <columns>product_name</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="89" parent="7" name="unit_id">
+        <columns>product_amount
+product_cost</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="90" parent="7" name="vendor_id">
+        <columns>vendor_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="91" parent="7" name="PRIMARY">
+        <columns>products_purchase_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="92" parent="8" name="recipe_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="93" parent="8" name="recipe_name">
+        <comment>название</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="94" parent="8" name="recipe_type">
+        <comment>тип рецепта (суши, роллы, воки, ...)</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="95" parent="8" name="recipe_group">
+        <comment>группа рецепта (классика, фирменные)</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="96" parent="8" name="recipe_view">
+        <comment>вид блюда рецепта (горячий, овощной, постный, острый)</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="97" parent="8" name="component_name">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="98" parent="8" name="component_gross">
+        <data-type>decimal(6,4)</data-type>
+      </column>
+      <column id="99" parent="8" name="component_net">
+        <data-type>decimal(6,4)</data-type>
+      </column>
+      <column id="100" parent="8" name="component_comment">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="101" parent="8" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="102" parent="8" name="PRIMARY">
+        <columns>recipe_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="103" parent="9" name="recipe_group_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="104" parent="9" name="recipe_group">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="105" parent="9" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <index id="106" parent="9" name="recipe_type">
+        <columns>recipe_group</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="107" parent="9" name="PRIMARY">
+        <columns>recipe_group_id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="108" parent="9" name="recipe_type">
+        <columns>recipe_group</columns>
+        <underlying-index>recipe_type</underlying-index>
+      </key>
+      <column id="109" parent="10" name="recipe_type_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="110" parent="10" name="recipe_type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="111" parent="10" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <index id="112" parent="10" name="recipe_type">
+        <columns>recipe_type</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="113" parent="10" name="PRIMARY">
+        <columns>recipe_type_id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="114" parent="10" name="recipe_type">
+        <columns>recipe_type</columns>
+        <underlying-index>recipe_type</underlying-index>
+      </key>
+      <column id="115" parent="11" name="recipe_view_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="116" parent="11" name="recipe_view">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="117" parent="11" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <index id="118" parent="11" name="recipe_type">
+        <columns>recipe_view</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="119" parent="11" name="PRIMARY">
+        <columns>recipe_view_id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="120" parent="11" name="recipe_type">
+        <columns>recipe_view</columns>
+        <underlying-index>recipe_type</underlying-index>
+      </key>
+      <column id="121" parent="12" name="sale_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="122" parent="12" name="sale_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="123" parent="12" name="sale_date">
+        <comment>дата продажи</comment>
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="124" parent="12" name="sale_receipt">
+        <comment>номер чека</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="125" parent="12" name="sale_kit">
+        <comment>сколько палочек</comment>
+        <mandatory>1</mandatory>
+        <data-type>smallint(20)</data-type>
+      </column>
+      <column id="126" parent="12" name="sale_discount_id">
+        <comment>скидка на весь заказ</comment>
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+      </column>
+      <column id="127" parent="12" name="sale_comment">
+        <comment>комментарий заказа</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(60)</data-type>
+      </column>
+      <column id="128" parent="12" name="customer_id">
+        <comment>клиент (по номеру телефона)</comment>
+        <mandatory>1</mandatory>
+        <data-type>smallint(11)</data-type>
+      </column>
+      <column id="129" parent="12" name="dish_name">
+        <comment>заказанное блюдо</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="130" parent="12" name="dish_amount">
+        <comment>количество блюда</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(8,2)</data-type>
+      </column>
+      <column id="131" parent="12" name="dish_discount_id">
+        <comment>скидка на блюдо</comment>
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+      </column>
+      <column id="132" parent="12" name="dish_cost">
+        <comment>стоимость заказанной строки</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(8,2)</data-type>
+      </column>
+      <column id="133" parent="12" name="dish_comment">
+        <comment>примечание к блюду</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="134" parent="12" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <index id="135" parent="12" name="product_01_id">
+        <columns>dish_amount
+dish_cost</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="136" parent="12" name="product_01_unit_id">
+        <columns>dish_cost</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="137" parent="12" name="product_id_">
+        <columns>dish_name</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="138" parent="12" name="unit_id">
+        <columns>dish_amount
+dish_cost</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="139" parent="12" name="vendor_id">
+        <columns>customer_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="140" parent="12" name="PRIMARY">
+        <columns>sale_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="141" parent="13" name="semi_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="142" parent="13" name="semi_name">
+        <comment>название</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="143" parent="13" name="component_name">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="144" parent="13" name="component_gross">
+        <data-type>decimal(6,4)</data-type>
+      </column>
+      <column id="145" parent="13" name="component_net">
+        <data-type>decimal(6,4)</data-type>
+      </column>
+      <column id="146" parent="13" name="component_comment">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="147" parent="13" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="148" parent="13" name="PRIMARY">
+        <columns>semi_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="149" parent="14" name="unit_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="150" parent="14" name="unit_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="151" parent="14" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="152" parent="14" name="PRIMARY">
+        <columns>unit_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="153" parent="15" name="vendor_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="154" parent="15" name="vendor_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="155" parent="15" name="vendor_phone">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="156" parent="15" name="vendor_address">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="157" parent="15" name="vendor_comment">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="158" parent="15" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="159" parent="15" name="PRIMARY">
+        <columns>vendor_id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

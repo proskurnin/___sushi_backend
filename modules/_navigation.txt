@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row">
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.php">Суши-Бар №1</a>
+            <!-- Links -->
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="sale.php">Продажи</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Клиенты</a>
+                    <div class="dropdown-menu" aria-labelledby="Data">
+                        <a class="dropdown-item" href="#">БД клиентов</a>
+                        <a class="dropdown-item" href="#">Новый клиент</a>
+                        <a class="dropdown-item" href="#">Черный список</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Сырьё</a>
+                    <div class="dropdown-menu" aria-labelledby="Data">
+                        <a class="dropdown-item" href="product.php">Склад</a>
+                        <a class="dropdown-item" href="product_purchase.php">Приход</a>
+                        <a class="dropdown-item" href="product_salvage.php">Списание</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ассортимент</a>
+                    <div class="dropdown-menu" aria-labelledby="Data">
+                        <a class="dropdown-item" href="semi.php">Полуфабрикаты</a>
+                        <a class="dropdown-item" href="preset.php">Комплекты</a>
+                        <a class="dropdown-item" href="recipe.php">Рецепты</a>
+                        <a class="dropdown-item" href="dish.php">Блюда</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Отчёты</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>

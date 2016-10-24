@@ -1,0 +1,94 @@
+nav {
+    background-color: #51bb07;
+}
+
+#products_tab {
+    font-size: .6em;
+}
+
+.addform {
+    background-color: #fafafa;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    padding: 15px 15px 0;
+}
+
+.editform {
+    background-color: #fbffed;
+    border: 1px solid #ebad5c;
+    border-radius: 10px;
+    padding: 15px 15px 0;
+}
+
+.mistakeform {
+    background-color: #ffeaed;
+    border: 1px solid #eb5457;
+    border-radius: 10px;
+    padding: 15px 15px 0;
+}
+
+.diagnostika-1 {
+    position: fixed;
+    z-index: 1500;
+    background-color: rgba(255,255,255,.9);
+    top: 25px;
+    right: 25px;
+    width: 350px;
+    padding: 15px;
+    border: 1px solid #737373;
+    border-radius: 10px;
+
+}
+
+.diagnostika-2 {
+    position: fixed;
+    z-index: 1500;
+    background-color: rgba(255,255,255,.9);
+    top: 25px;
+    left: 25px;
+    width: 800px;
+    padding: 15px;
+    border: 1px solid #737373;
+    border-radius: 10px;
+    font-size: .7rem;
+}
+.td-right {
+    text-align: right;
+}
+.td-center {
+    text-align: center;
+}
+.table-hover tbody tr:hover {
+    background-color: rgb(245, 255, 239);
+}
+.infoblock {
+    background-color: rgb(250, 250, 250) !important;
+}
+.infoblock > td {
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.infoblock > td > div {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.infoblock > td > div > table {
+    margin: 0;
+    background-color: rgb(250, 250, 250) !important;
+    font-size: .8rem;
+    color: #878787;
+}
+.infoblock > td > div > table > thead > th {
+    background-color: rgb(250, 250, 250) !important;
+}
+.infoblock > td > div > table > tbody > td {
+    background-color: rgb(250, 250, 250) !important;
+}
+.nakopit {
+    font-size: .6rem;
+    color: #b4b4b4;
+}
+.semi {
+    color: #e3bf64;
+}
