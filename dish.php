@@ -1,3 +1,14 @@
+<?php
+
+session_start();
+if (!isset($_SESSION['login'])) {
+    $_SESSION['page'] = $_SERVER['REQUEST_URI'];
+    header("Location: http://bar-1.ru/_sushi/index.php?authorization");
+    exit;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <?php
@@ -33,7 +44,6 @@ $options_recipes = '';
 
 </head>
 <body>
-
 
 
 
@@ -698,13 +708,11 @@ if ($_POST['actiontype'] == 'add' || $_POST['actiontype'] == 'edit') {
 
 // Если на предыдущем шаге выявили ошибки, в нашем случае - это пустые (не заполненные) поля строк
 // В строке все поля, кроме комментария обязательные для заполнения, если заполнена хотябы одна ячейка
-
     if ($event == 'event_mistake')
     {
 
         echo "<script>alert('$reason');</script>";
     }
-
 
 // Действие по редактированию через UPDATE
     else if ($_POST['actiontype'] == 'edit') {
@@ -866,6 +874,7 @@ if ($_POST['actiontype'] == 'add' || $_POST['actiontype'] == 'edit') {
 
         $num_rows = $num_rows_corrector;
     }
+
 // Добаление данных в Базу Данных
 // Работает хорошо
     else if($_POST['actiontype'] == 'add') {
@@ -970,7 +979,7 @@ if ($_POST['actiontype'] == 'add' || $_POST['actiontype'] == 'edit') {
         <!-- Должна отображаться структура наполнения от Полуфабриката к Сету -->
 
         <div>
-            <a href="preset.php" class="btn btn-outline-info">Полуфабрикаты</a>
+            <a href="semi.php" class="btn btn-outline-info">Полуфабрикаты</a>
             <a href="preset.php" class="btn btn-outline-primary">Комплекты</a>
             <a href="recipe.php" class="btn btn-outline-success">Рецепты</a>
             <a href="dish.php" class="btn btn-warning">Ассоритимент</a>

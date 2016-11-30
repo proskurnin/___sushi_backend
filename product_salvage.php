@@ -1,3 +1,14 @@
+<?php
+
+session_start();
+if (!isset($_SESSION['login'])) {
+    $_SESSION['page'] = $_SERVER['REQUEST_URI'];
+    header("Location: http://bar-1.ru/_sushi/index.php?authorization");
+    exit;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>

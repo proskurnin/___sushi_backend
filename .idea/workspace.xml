@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9ecbe37-e1db-47f5-9e04-3df658d6a8dd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Roman.xml" />
+    </list>
+    <ignored path="___sushi_backend.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="___sushi_backend" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/bar/internal/Footer.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/rolly/FullSearchTemplate.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/bar/internal/Header.html" />
+        <option value="$PROJECT_DIR$/../__сайт/___161119/AddTemplate-my.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/cart/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/deliveryZones/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/interesting/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/Stocks/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/rolly/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/order/AddTemplate.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/Bar1OrderDone/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat/modules/payment/classes/system/yandexcpp.php" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/Bar1Interesting/2008/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/Bar1Interesting/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/Bar1Reviews/2014/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/bar/Settings.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/Bar1ItemShop_Sets/EditTemplate.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/Bar1ItemShop_Sets/AddTemplate.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/Bar1ItemShop_Sets/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/Bar1ItemShop_Sushi/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/lift/assets/js/ask_me.php" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/lift/assets/js/recall_me.php" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/lift/assets/js/recall_me.js" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/lift/assets/js/ask_me.js" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/lift/assets/css/lift.css" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/Bar1DeliveryZones/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/Bar1ItemShop_Rolly/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/sys/Bar1Users/Settings.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/sys/Bar1Users/SearchTemplate.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/sys/Bar1Users/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/sys/Bar1Users/FullSearchTemplate.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/bar/Footer.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/Bar1Order/Class.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/class/Bar1Order/RecordTemplateFull.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/bar/assets/css/bar.css" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/bar/Header.html" />
+        <option value="&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/modules/authorization_check.php" />
+        <option value="&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/modules/authorization.php" />
+        <option value="&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/semi.php" />
+        <option value="&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/preset.php" />
+        <option value="&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/product.php" />
+        <option value="&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/product_purchase.php" />
+        <option value="&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/product_salvage.php" />
+        <option value="&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/recipe.php" />
+        <option value="&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/sale.php" />
+        <option value="&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/dish.php" />
+        <option value="&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/assets/css/sushi.css" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/lift/Header.html" />
+        <option value="&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/lift/Footer.html" />
+        <option value="&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="13" />
+    <option name="y" value="23" />
+    <option name="width" value="1401" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../__сайт/___161119/AddTemplate-my.html" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$3/SQL Dialects" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../__сайт/___161119" />
+      <recent name="/" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9ecbe37-e1db-47f5-9e04-3df658d6a8dd" name="Default" comment="" />
+      <created>1477348169758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1477348169758</updated>
+      <workItem from="1477348170941" duration="1507000" />
+      <workItem from="1477349949741" duration="2109000" />
+      <workItem from="1477352190871" duration="2091000" />
+      <workItem from="1477404252585" duration="11494000" />
+      <workItem from="1477728070918" duration="82591000" />
+      <workItem from="1479318116509" duration="115000" />
+      <workItem from="1479318253558" duration="42293000" />
+      <workItem from="1479550755055" duration="4248000" />
+      <workItem from="1479581147861" duration="7772000" />
+      <workItem from="1479679157768" duration="6150000" />
+      <workItem from="1479737900172" duration="34689000" />
+      <workItem from="1480115026090" duration="16312000" />
+      <workItem from="1480327737038" duration="29128000" />
+      <workItem from="1480516769387" duration="802000" />
+      <workItem from="1480517744959" duration="1565000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="242866000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="13" y="23" width="1401" height="873" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19782609" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20144928" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277849" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21376811" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32694763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289855" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289855" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>remoteDeploymentFS://&lt;09f77da1-86f2-4d8c-80cb-cc5f75ff97f1&gt;/netcat_template/template/lift/Footer.html</url>
+          <line>201</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;83c67cc3-554c-453f-8d00-14cb5badf408&gt;/index.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e61ce37e-cd1e-4eab-a1d3-e6f2a73f9747/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="187" column="38" selection-start-line="187" selection-start-column="38" selection-end-line="187" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../__сайт/___161119/AddTemplate-my.html" />
+  </component>
+</project>

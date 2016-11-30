@@ -1,7 +1,42 @@
+<?php
+
+session_start();
+if (!isset($_SESSION['login'])) {
+    $_SESSION['page'] = $_SERVER['REQUEST_URI'];
+    header("Location: http://bar-1.ru/_sushi/index.php?authorization");
+    exit;
+}
+
+?>
+
 <?php include 'modules/database.php'; ?>
 <?php
-    //Create Select Query
-    
+//Session Start
+session_start();
+
+//Customer Add
+$customer = $_POST['customer']; //Клиент
+$first_name = $_POST['first_name']; //Имя клиента
+$last_name = $_POST['last_name']; //Фамилия клиента
+$middle_name = $_POST['middle_name']; //Отчество клиента
+$birthday = $_POST['birthday']; //День рождения клиента
+$source = $_POST['source']; //Откуда клиент узнал о нас
+$referrer = $_POST['referrer']; //Кто "привёл" клиента
+$phone_1 = $_POST['phone_1']; //Телефон и ID клиента 
+$phone_2 = $_POST['phone_2']; //Допольнительный телефон клиента
+$street = $_POST['street']; //Адрес клиента - улица
+$house = $_POST['house']; //Адрес клиента - номер дома
+$apartment = $_POST['apartment']; //Адрес клиента - номер квартиры
+$entrance = $_POST['entrance']; //Адрес клиента - номер подъезда
+$floor = $_POST['floor']; //Адрес клиента - номер этажа
+$intercom = $_POST['intercom']; //Адрес клиента - код домофона
+$link_vk = $_POST['link_vk']; //Ссылка на профиль в вк
+$link_fb = $_POST['link_fb']; //Ссылка на профиль в фейсбук
+$customer_comment = $_POST['customer_comment']; //Комментарий к профилю клиента
+
+//Order Add
+$dish
+
 ?>
 <!DOCTYPE html>
 <html lang="ru">
